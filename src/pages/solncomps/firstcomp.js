@@ -1,4 +1,4 @@
-export default function Firstcomp() {
+export default function MyComp() {
   return (
     <div>
       <h1> My first component </h1>
@@ -10,3 +10,4 @@ export default function Firstcomp() {
     </div>
   );
 }
+
