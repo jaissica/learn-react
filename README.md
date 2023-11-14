@@ -55,6 +55,47 @@ Mistake 2: Function should start with upper case letter
 2. Define a React component in “src/pages/qcomps/firstcomp.js” to render the
 following HTML content in the browser:
 Answer 2. 
+// Code
+import React from 'react';
+
+const FirstComp = () => {
+  return (
+    <div>
+      <h1>My first component</h1>
+      <ol>
+        <li>Components: UI Building Block</li>
+        <li>Defining a Component</li>
+        <li>Using a component</li>
+      </ol>
+    </div>
+  );
+};
+
+export default FirstComp;
+//
+
+
+
+
+Based on the JSX rules listed above, answer the following questions:
+1. Identify and fix all mistakes in the JSX code in “src/pages/qcomps/bios.js”:
+Answer 1. 
+2. Modify “src/pages/qcomps/todos.js”, such that the person’s name and their
+image is displayed. Also, the alt attribute must be set with the person’s name.
+Props in Components
+React components use props to communicate with each other. Every parent
+component can pass some information to its child components by giving them props.
+You can pass any JavaScript value through them, including objects, arrays, and
+functions.
+Explore code in “src/pages/components/profile_props.js” for an example of how props are used,
+and then consider the following:
+1. What is the meaning of the input parameter of the function Avatar?
+2. What is the meaning of the attributes in <Avatar /> in relation to the function
+Avatar?
+3. Modify index.js and load the components in a browser to see what gets
+displayed.
+For You to Do:
+1. Review the code in “src/pages/qcomps/gallery_props.js”. Run it and review how it
 
 
 
