@@ -50,8 +50,11 @@ For You to Do:
 1. The code snippet in “src/pages/qcomps/profile_mistake.js” has two mistakes.
 Identify and fix them. Add necessary imports in “src/pages/index.js” to load the
 component. Run the server and check in the browser.
+Answer 1. Mistake 1: The function was not returning anything, didn't have paranthesis.
+Mistake 2: Function should start with upper case letter 
 2. Define a React component in “src/pages/qcomps/firstcomp.js” to render the
 following HTML content in the browser:
+Answer 2. 
 
 
 
