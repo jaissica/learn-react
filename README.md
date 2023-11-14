@@ -80,9 +80,27 @@ export default FirstComp;
 Based on the JSX rules listed above, answer the following questions:
 1. Identify and fix all mistakes in the JSX code in “src/pages/qcomps/bios.js”:
 Answer 1. 
+Enclose the code in div
+''''
+export default function Bio() {
+  return (
+    <div>
+    <div class="intro">
+      <h1>Welcome to my website!</h1>
+    </div>
+    <p class="summary">
+      You can find my thoughts here.
+      <br/><br/>
+      <b>And <i>pictures</i></b> of people!
+    </p>
+    </div>
+  );
+}
+''''
 2. Modify “src/pages/qcomps/todos.js”, such that the person’s name and their
 image is displayed. Also, the alt attribute must be set with the person’s name.
 Props in Components
+
 React components use props to communicate with each other. Every parent
 component can pass some information to its child components by giving them props.
 You can pass any JavaScript value through them, including objects, arrays, and

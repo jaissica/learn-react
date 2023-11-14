@@ -6,12 +6,13 @@ import styles from '@/styles/Home.module.css'
 import Gallery from './components/gallery.js'
 import Profile from './qcomps/profile_mistake.js'
 import FirstComp from './qcomps/firstcomp.js'
+import Bio from './qcomps/bios.js'
 
 export default function Home() {
   return (
     <div className={styles.main}>
         {/* <Profile /> */}
-        <FirstComp/>
+        <Bio/>
     </div>
   )
 }
